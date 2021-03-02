@@ -8,19 +8,20 @@ package designPattern.singletonPattern;
 public class HungrySingleton {
 
     private static final HungrySingleton hungrySingleton = new HungrySingleton();
+
     /**
      * 静态代码块加载
-
-    private static final HungrySingleton hungrySingleton;
-    static {
-        hungrySingleton = new HungrySingleton();
-    }
+     * <p>
+     * private static final HungrySingleton hungrySingleton;
+     * static {
+     * hungrySingleton = new HungrySingleton();
+     * }
      */
-    private HungrySingleton(){
+    private HungrySingleton() {
 
     }
 
-    public static HungrySingleton getInstance(){
+    public static HungrySingleton getInstance() {
         return hungrySingleton;
     }
 

@@ -8,11 +8,11 @@ package designPattern.singletonPattern;
 public class LazySimpleSingleton {
     private static LazySimpleSingleton instance = null;
 
-    private LazySimpleSingleton(){
+    private LazySimpleSingleton() {
 
     }
 
-    public static LazySimpleSingleton getInstance(){
+    public static LazySimpleSingleton getInstance() {
         if (instance == null) {
             instance = new LazySimpleSingleton();
         }

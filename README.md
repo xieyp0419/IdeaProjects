@@ -1,2 +1,2 @@
 # StudyDemo
-my study demo
+my first study demo on github!
